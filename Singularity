@@ -3,4 +3,4 @@ From: biocontainers/bamtools:latest
 
 %runscript
 
-/opt/conda/bin/bamtools
+    exec /opt/conda/bin/bamtools "$@"
